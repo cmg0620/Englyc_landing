@@ -333,6 +333,30 @@
         <h2 class="subtitle text-center mb-3 mb-md-5 fw-bold">Заполните форму для обратной связи</h2>
         
         <form class="row row-cols-1 needs-validation" novalidate>
+          <div class="col-md-3 position-relative">
+            <label for="validationTooltip04" class="form-label">State</label>
+            <select class="form-select" id="validationTooltip04" required>
+              <option selected disabled value="">ФИО родителя</option>
+              <option>...</option>
+            </select>
+            <div class="invalid-tooltip">
+              Введите ФИО
+            </div>
+          </div>
+          <div class="col-md-3 position-relative">
+            <label for="validationTooltip05" class="form-label">ФИО ребенка</label>
+            <input type="text" class="form-control" id="validationTooltip05" required>
+            <div class="invalid-tooltip">
+              Введите ФИО
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </div>
+        </form>
+
+        
+        <form class="row row-cols-1 needs-validation" novalidate>
           <div class="ms-md-4 col-md-8 pb-4 pt-4">
             <h2 class="fw-semibold fs-5">Английский лицей ведет прием заявок и запись будущих учеников в 3-7 классы школы на 2023/2024 учебный год</h2>
             <h2 class="fs-6">Запись в первый класс окончена</h2>
