@@ -332,29 +332,6 @@
         <div class="title fw-semibold text-center mt-3">Записаться?</div>
         <h2 class="subtitle text-center mb-3 mb-md-5 fw-bold">Заполните форму для обратной связи</h2>
         
-        <form class="row row-cols-1 needs-validation" novalidate>
-          <div class="col-md-3 position-relative">
-            <label for="validationTooltip04" class="form-label">State</label>
-            <select class="form-select" id="validationTooltip04" required>
-              <option selected disabled value="">ФИО родителя</option>
-              <option>...</option>
-            </select>
-            <div class="invalid-tooltip">
-              Введите ФИО
-            </div>
-          </div>
-          <div class="col-md-3 position-relative">
-            <label for="validationTooltip05" class="form-label">ФИО ребенка</label>
-            <input type="text" class="form-control" id="validationTooltip05" required>
-            <div class="invalid-tooltip">
-              Введите ФИО
-            </div>
-          </div>
-          <div class="col-12">
-            <button class="btn btn-primary" type="submit">Submit form</button>
-          </div>
-        </form>
-
         
         <form class="row row-cols-1 needs-validation" novalidate>
           <div class="ms-md-4 col-md-8 pb-4 pt-4">
@@ -362,15 +339,22 @@
             <h2 class="fs-6">Запись в первый класс окончена</h2>
 
             <div class="col-6">
-              <input type="text" class="form-control" id="validationTooltip01" value="ФИО ребенка" required>
-              <div class="valid-tooltip">
-                Looks good!
-              </div>
+              <label for="validationTooltip04" class="form-label">Выберите класс</label>
+            <select class="form-select" id="validationTooltip04" required>
+              <option selected disabled value="">Класс</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select>
+            <div class="invalid-tooltip">
+              Выберите класс!
+            </div>
             </div>
             <div class="col-6">
-              <input type="text" class="form-control" id="validationTooltip02" value="ФИО родителя" required>
-              <div class="valid-tooltip">
-                Looks good!
+              <label for="validationTooltip05" class="form-label">ФИО ребенка</label>
+              <input type="text" class="form-control" id="validationTooltip05" required>
+              <div class="invalid-tooltip">
+                Введите ФИО
               </div>
             </div>
             <div class="form-check">
