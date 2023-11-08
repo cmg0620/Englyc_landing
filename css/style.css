@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+a:active,
+a:hover,
+a {
+  text-decoration: none;
+  color: black;
+}
+
 :root {
   --bs-font-sans-serif: "Inter", sans-serif;
   --bs-nav-link-font-weight: 400;
