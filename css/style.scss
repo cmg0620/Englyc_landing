@@ -136,7 +136,9 @@ form{
   -ms-border-radius: 1vw;
   -o-border-radius: 1vw;
 }
-
+.show-none{
+  display: none!important;
+}
 // @media (min-width:425.1px) and (max-width:992px){
 //   .main{
 //     background-image: url(/img/main2.png);
